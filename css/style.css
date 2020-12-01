@@ -1,0 +1,446 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+/* Next Button*/
+.next{
+	font-size: 25px;
+	font-family: Roboto;
+	padding: 10px 15px;
+	background-color: #ffffff00;
+	border: 3px solid #ffffff00;
+	color: #fff;
+	margin-top: 70px;
+}
+.next:hover{
+	background-color: #615555;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+ /* Navbar Section */
+.navbar-light .navbar-brand {
+	color: #fff;
+	height: 50px;
+}
+.logo{
+	font-family: 'Allessa Personal Use';
+	font-size: 30px;
+}
+.logo:hover{
+	color: #615555;
+}
+.navbar-brand img{
+	height: 50px;
+	overflow: hidden;	
+}
+.navbar-brand{
+	align-items: left;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-toggler {
+	background: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+
+/*Home section*/
+#home{
+	background-image: url('../images/fashion-slider-1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+#home p{
+	font-size: 33px;
+	color: #ffffff;
+	font-family: Roboto;
+	margin-top: 120px;;
+}
+.home_img{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow-x: hidden;
+}
+
+/*ABOUT US SECTION*/
+#about{
+	background-image: url('../images/fashion-slider-5.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	text-align: center;
+}
+#about h1{
+	color: rgb(177, 170, 170);
+	font-family: Roboto;
+	font-size: 50px;
+}
+#about h1::after{
+	content: '';
+   background: #efefef;
+   display: block;
+   height: 3px;
+   width: 170px;
+   margin:3px auto 2px;
+}
+#about p{
+	font-size: 28px;
+	color: #ffffff;
+	font-family: Roboto;
+	margin-top: 120px;;
+}
+.btn-about{
+	font-size: 30px;
+	font-family: Roboto;
+	padding: 10px 15px;
+	background-color: #ffffff00;
+	cursor: pointer;
+	border: 3px solid #fff;
+	color: #fff;
+	margin-top: 70px;
+}
+.about-next{
+	font-size: 25px;
+	font-family: Roboto;
+	padding: 10px 15px;
+	background-color: #ffffff00;
+	border: 3px solid #ffffff00;
+	color: #000;
+	margin-top: 70px;
+}
+.about-next:hover{
+	background-color: #615555;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+/*SERVICES SECTION*/
+#services{
+	background-image: url('../images/fashion-slider-4.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	text-align: center;
+}
+#services h1{
+	color: rgb(177, 170, 170);
+	font-family: Roboto;
+	font-size: 50px;
+}
+#services h1::after{
+	content: '';
+   background: #efefef;
+   display: block;
+   height: 3px;
+   width: 170px;
+   margin:3px auto 2px;
+}
+#services p{
+	font-size: 28px;
+	color: #ffffff;
+	font-family: Roboto;
+	margin-top: 120px;;
+}
+.btn-services{
+	font-size: 30px;
+	font-family: Roboto;
+	padding: 10px 15px;
+	background-color: #ffffff00;
+	cursor: pointer;
+	border: 3px solid #fff;
+	color: #fff;
+	margin-top: 70px;
+}
+
+/* Service page */
+.description h1{
+	text-align: center;
+	margin-top: 20px;
+}
+.description p{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+.vintage, .artsy, .grunge, .chic, .exotic, .kids, .bohemian{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 55px;
+	color: #fff;
+}
+.services-div{
+	border: 1px solid black;
+    margin-top: 100px;
+    margin-right: 0px;
+	margin-left: 0px;
+	color: #fff;
+    background-color: black;
+}
+.testimonial-next{
+	font-size: 25px;
+	font-family: Roboto;
+	padding: 10px 15px;
+	margin-left: 90px;
+	cursor: pointer;
+	background-color: #000;
+	border: 3px solid #ffffff00;
+	color: #fff;
+	margin-top: 70px;
+}
+/*Testimonials SECTION*/
+#testimonials{
+	background-image: url('../images/fashion-slider-3.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	text-align: center;
+	overflow: hidden;
+}
+#testimonials h1{
+	color: rgb(177, 170, 170);
+	font-family: Roboto;
+	font-size: 50px;
+}
+#testimonials h1::after{
+	content: '';
+   background: #efefef;
+   display: block;
+   height: 3px;
+   width: 170px;
+   margin:3px auto 2px;
+}
+#testimonials p{
+	font-size: 28px;
+	color: #ffffff;
+	font-family: Roboto;
+	margin-top: 120px;;
+}
+.testimonials{
+	margin-top: 40px;
+	margin-left: 20px;
+	text-align: center;
+	display: flex;
+}
+.testimonials-two{
+	margin-top: 40px;
+	margin-left: 20px;
+	text-align: center;
+	display: flex;
+	align-items:center;
+}
+.test-container{
+	border: 2px solid;
+	border-radius: 5px;
+	background-color: #ccc;
+	padding: 16px;
+	margin: 16px 20px;
+
+}
+.test-container p{
+	font-size: 20px;
+	color: #000000;
+}
+.test-container span{
+	font-size: 55px;
+	color: #007bff;
+	font-weight: bold;
+}
+.test-container::after{
+	content: "";
+	clear: both;
+	display: table;
+  }
+.test-container img {
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+  }
+.test-container span {
+	font-size: 20px;
+	margin-right: 15px;
+  }
+@media (max-width: 500px) {
+	.test-container {
+		text-align: center;
+	}
+	.test-container img {
+		margin: auto;
+		float: none;
+		display: block;
+	}
+}
+.btn-testimonials{
+	font-size: 30px;
+	font-family: Roboto;
+	padding: 10px 15px;
+	background-color: #ffffff00;
+	cursor: pointer;
+	border: 3px solid #fff;
+	color: #fff;
+	margin-top: 70px;
+}
+.btn-testimonials:hover{
+	background-color: #615555;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before{
+    content: '"';
+    font-size: 60px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -20px;
+    right: 5px;
+}
+blockquote::after{
+    content: '\94';
+    font-size: 60px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -20px;
+    left: 5px;
+}
+.test-container i{
+    color: #007bff;
+    font-size: 30px;
+    margin-right: 7px;
+}
+#fa-last{
+    font-size: 30px;
+    margin-left: 7px;
+    top: 30px;
+}
+/*SUBSCRIPION SECTION*/
+#subscribe{
+	background-image: url('../images/fashion-slider-2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	text-align: center;
+	padding-top: 30px;
+    padding-left: 100px;
+	margin-bottom: 30px;
+	overflow-y: hidden;
+}
+#subscribe h1{
+	color: rgb(231, 227, 227);
+	font-family: Roboto;
+	font-size: 50px;
+}
+#subscribe h1::after{
+	content: '';
+   background: #efefef;
+   display: block;
+   height: 3px;
+   width: 170px;
+   margin:3px auto 2px;
+}
+.myForm {
+	font-size: 20px;
+	width: 30em;
+	padding: 1em;
+	font-family: Robotto;
+}
+
+.myForm * {
+	box-sizing: border-box;
+}
+
+.myForm label {
+	padding: 0;
+	font-weight: bold;
+	text-align: left;
+	display: block;
+	color: #ccc;
+}
+
+.myForm input,
+.myForm select {
+	margin-left: 2em;
+	float: right;
+	width: 20em;
+	border: 1px solid #ccc;
+	font-size: 0.9em;
+	padding: 0.3em;
+}
+.label{
+	background-color: rgb(63, 62, 62) !important;
+	border: 1px solid #00FF00;
+	color: #ffffff;
+}
+#dob{
+	color: #ffffff;
+	background-color: rgb(63, 62, 62);
+	filter: invert(100%);
+}
+.btn-subscribe{
+	font-size: 20px;
+	font-family: Roboto;
+	padding: 7px 15px;
+	background-color: #a0767600;
+	cursor: pointer;
+	border: 3px solid #fff;
+	color: #fff;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.btn-subscribe:hover{
+	background-color: #615555;
+	border: 3px solid #fff;
+}
+#subscribe span{
+	font-size: 28px;
+	color: #ffffff;
+	font-family: Roboto;
+	margin-left: 20px;
+}
+.subscribe-next{
+	font-size: 25px;
+	font-family: Roboto;
+	padding: 10px 15px 3px 15px;
+	background-color: #ffffff00;
+	border: 3px solid #ffffff00;
+	color: #fff;
+	margin-top: 30px;
+}
+.subscribe-next:hover{
+	background-color: #615555;
+	transition: 0.5s;
+	cursor: pointer;
+}
