@@ -1,6 +1,14 @@
 # group-project-final
 A simple, elegant and static website for a fashion company that was part of a group project in my introductory Web Design Class
 
+WHAT I LEARNT:
+
+- Complex CSS rules such as media queries. 
+
+
+- Bootstrap 4 to handle the responsiveness of the website.
+
+
 MY CONTRIBUTION:
 
 
@@ -21,10 +29,3 @@ I was responsible for designing and making the landing page as can be seen below
 
 
 
-WHAT I LEARNT:
-
-
-The use of more complex CSS rules such as media queries. 
-
-
-The use of bootstrap 4 in handling the responsiveness of the website.
