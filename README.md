@@ -1,5 +1,5 @@
 # group-project-final
-A simple, elegant and static website for a fashion company. 
+A simple, elegant and static website for a fashion company that was part of a group project in my introductory Web Design Class
 
 MY CONTRIBUTION:
 
